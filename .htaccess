@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)yyyyMM(.*)$ https://280blocker.net/files/$1%{TIME_YEAR}%{TIME_MON}$2
